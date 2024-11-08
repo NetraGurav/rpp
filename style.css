@@ -1,0 +1,67 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    text-align: center;
+
+}
+.h{
+    border : 1px solid green;
+   padding-top: 8px;
+   background-color: rgb(46, 4, 85);
+   color : white;
+   height : 3rem;
+
+}
+.choices{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 5rem;
+    gap : 3rem;
+}
+.choice:hover{
+    
+    cursor : pointer;
+    opacity : 40%;
+}
+.choice{
+    height : 160px;
+    width : 160px;
+    border-radius : 50%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height : 150px;
+    width : 150px;
+    object-fit : cover;/*to fit the picture*/
+    border-radius: 50%;
+
+}
+.score{
+    justify-content: center;
+    align-items : center;
+    margin-top : 5rem;
+}
+.Score-board{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    font-size : 2rem;
+    gap : 2rem;
+}
+.Msg-container{
+   margin-top : 5rem;
+}
+
+#msg{
+    text-align : center;
+    font-size: 2rem;
+    height : 3rem;
+    width : 9rem;
+    background-color : rgb(118, 86, 146);
+    display : inline;/*gives the border only to that specific content*/
+    border-radius : 1rem;
+}
